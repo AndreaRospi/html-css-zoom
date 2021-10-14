@@ -128,9 +128,11 @@ footer{
     justify-content: center;
 }
 
-.footer-left .arrow{
+.footer-left .arrow,
+.footer-center .arrow{
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 
 .arrow i{
@@ -152,7 +154,36 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 7px;
 }
+
+.footer-center .number{
+    position: relative;
+}
+
+.number span{
+    position: absolute;
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 13px;
+}
+
+#green i{
+    color: #4bc800;
+}
+
+.freccia{
+    position: relative;
+}
+
+.freccia i{
+    position: absolute;
+    top: 30px;
+    right: 8px;
+    font-size: 12px;
+}
+
 
 
 .footer-right{
