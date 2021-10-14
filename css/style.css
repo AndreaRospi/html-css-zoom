@@ -17,6 +17,7 @@ body{
 
 .view{
     margin-top: 5px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: flex-end;
 }
@@ -31,6 +32,7 @@ body{
 
 .container{
     width: 100%;
+    height: calc(100vh - 80px);
     display: flex;
     align-items: center;
 }
@@ -39,12 +41,12 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 10px;
-    
 }
 
 .container .left i{
+    font-size: 30px;
     transform: rotateY(180deg);
+    margin-right: 10px;
 }
 
 
@@ -57,14 +59,43 @@ body{
 }
 
 .container .right i{
+    font-size: 30px;
     color:#2ebaff ;
 }
 
 .container .main{
     width: 95%;
-    height: calc(100vh - 80px);
-    background-color: plum;
+    height: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
 }
+
+.picture{
+    height: calc((100% - 20px) / 5);
+    width: calc((100% - 20px ) / 5);
+    background-color: chocolate;
+    position: relative;
+}
+
+.picture span{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 6px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.picture:nth-of-type(odd){
+    background-color: crimson;
+}
+
+.picture:nth-of-type(even){
+    background-color: blue;
+}
+
+
 
 
 footer{
