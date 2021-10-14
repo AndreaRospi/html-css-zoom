@@ -17,10 +17,8 @@ main{
     color: white;
 }
 
-
+/* sezoione button view */
 .view{
-    margin-top: 5px;
-    margin-bottom: 15px;
     display: flex;
     justify-content: flex-end;
 }
@@ -33,12 +31,18 @@ main{
     border-radius: 5px;
 }
 
+/* /sezione button */
+
+
+
 .container{
     width: 100%;
     height: calc(100vh - 80px);
     display: flex;
     align-items: center;
 }
+
+/* inizio container sinistro */
 
 .container .left {
     display: flex;
@@ -52,7 +56,9 @@ main{
     margin-right: 10px;
 }
 
+/* /container sinistro */
 
+/* inizio container destro */
 
 .container .right{
     display: flex;
@@ -65,6 +71,10 @@ main{
     font-size: 30px;
     color:#2ebaff ;
 }
+
+/* /container destro */
+
+/* inizio container centrale */
 
 .container .main{
     width: 95%;
@@ -91,15 +101,16 @@ main{
 }
 
 .picture:nth-of-type(odd){
-    background-color: crimson;
+    background-color: magenta;
 }
 
 .picture:nth-of-type(even){
-    background-color: blue;
+    background-color: indigo;
 }
 
+/* /container centrale */
 
-
+/* footer */
 
 footer{
     color: #dcdcdc;
@@ -109,6 +120,7 @@ footer{
     justify-content: space-between;
 }
 
+/* sezione footer sinistra */
 
 .footer-left{
     display: flex;
@@ -127,6 +139,8 @@ footer{
     justify-content: center;
 }
 
+/* / footer sinistra */
+
 .footer-left .arrow,
 .footer-center .arrow{
     display: flex;
@@ -137,6 +151,8 @@ footer{
 .arrow i{
     font-size: 20px;
 }
+
+/* inizio footer centrale */
 
 .footer-center{
     
@@ -183,6 +199,9 @@ footer{
     font-size: 12px;
 }
 
+/* /footer centrale */
+
+/* Inizio footer destra */
 
 .footer-right{
     display: flex;
@@ -198,7 +217,8 @@ footer{
 .end span{
     color: #cf524b;
 }
-}
+
+/* /footee destra */
 
 /* debug */
 /* 
