@@ -3,3 +3,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+
+
+/* main */
+main{
+    width: 100%;
+}
+
+.view{
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.view span{
+    color: white;
+    background: linear-gradient(#3d3d3d, #1f1f1f);
+    padding: 6px 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
